@@ -1,0 +1,171 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'UI_oil_reservoir_para.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QMainWindow
+
+
+class Ui_Widget_Oil_pool_paras(object):
+    def setupUi(self, Widget_Oil_pool_paras):
+        Widget_Oil_pool_paras.setObjectName("Widget_Oil_pool_paras")
+        Widget_Oil_pool_paras.resize(585, 406)
+        self.groupBox_Oil_pool_paras = QtWidgets.QGroupBox(Widget_Oil_pool_paras)
+        self.groupBox_Oil_pool_paras.setGeometry(QtCore.QRect(9, 9, 567, 291))
+        font = QtGui.QFont()
+        font.setFamily("宋体")
+        font.setPointSize(12)
+        self.groupBox_Oil_pool_paras.setFont(font)
+        self.groupBox_Oil_pool_paras.setObjectName("groupBox_Oil_pool_paras")
+        self.lineEdit_para_oil_layer_H = QtWidgets.QLineEdit(self.groupBox_Oil_pool_paras)
+        self.lineEdit_para_oil_layer_H.setGeometry(QtCore.QRect(220, 30, 71, 21))
+        self.lineEdit_para_oil_layer_H.setDragEnabled(False)
+        self.lineEdit_para_oil_layer_H.setReadOnly(False)
+        self.lineEdit_para_oil_layer_H.setObjectName("lineEdit_para_oil_layer_H")
+        self.label = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label.setGeometry(QtCore.QRect(140, 30, 81, 20))
+        font = QtGui.QFont()
+        font.setFamily("SimSun-ExtB")
+        font.setPointSize(9)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_2.setGeometry(QtCore.QRect(300, 30, 54, 12))
+        self.label_2.setObjectName("label_2")
+        self.label_11 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_11.setGeometry(QtCore.QRect(300, 70, 54, 12))
+        self.label_11.setObjectName("label_11")
+        self.lineEdit_para_well_space_W = QtWidgets.QLineEdit(self.groupBox_Oil_pool_paras)
+        self.lineEdit_para_well_space_W.setGeometry(QtCore.QRect(220, 70, 71, 21))
+        self.lineEdit_para_well_space_W.setObjectName("lineEdit_para_well_space_W")
+        self.label_12 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_12.setGeometry(QtCore.QRect(140, 70, 51, 21))
+        font = QtGui.QFont()
+        font.setFamily("SimSun-ExtB")
+        font.setPointSize(9)
+        self.label_12.setFont(font)
+        self.label_12.setObjectName("label_12")
+        self.label_9 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_9.setGeometry(QtCore.QRect(300, 110, 71, 21))
+        self.label_9.setObjectName("label_9")
+        self.label_10 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_10.setGeometry(QtCore.QRect(90, 110, 121, 20))
+        font = QtGui.QFont()
+        font.setFamily("SimSun-ExtB")
+        font.setPointSize(9)
+        self.label_10.setFont(font)
+        self.label_10.setObjectName("label_10")
+        self.lineEdit_para_Roi = QtWidgets.QLineEdit(self.groupBox_Oil_pool_paras)
+        self.lineEdit_para_Roi.setGeometry(QtCore.QRect(220, 110, 71, 21))
+        self.lineEdit_para_Roi.setObjectName("lineEdit_para_Roi")
+        self.lineEdit_para_Rr = QtWidgets.QLineEdit(self.groupBox_Oil_pool_paras)
+        self.lineEdit_para_Rr.setGeometry(QtCore.QRect(220, 150, 71, 21))
+        self.lineEdit_para_Rr.setObjectName("lineEdit_para_Rr")
+        self.label_13 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_13.setGeometry(QtCore.QRect(140, 150, 71, 21))
+        font = QtGui.QFont()
+        font.setFamily("SimSun-ExtB")
+        font.setPointSize(9)
+        self.label_13.setFont(font)
+        self.label_13.setObjectName("label_13")
+        self.label_14 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_14.setGeometry(QtCore.QRect(300, 150, 71, 21))
+        self.label_14.setObjectName("label_14")
+        self.lineEdit_para_P_r = QtWidgets.QLineEdit(self.groupBox_Oil_pool_paras)
+        self.lineEdit_para_P_r.setGeometry(QtCore.QRect(220, 190, 71, 21))
+        self.lineEdit_para_P_r.setObjectName("lineEdit_para_P_r")
+        self.label_15 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_15.setGeometry(QtCore.QRect(130, 190, 81, 16))
+        font = QtGui.QFont()
+        font.setFamily("SimSun-ExtB")
+        font.setPointSize(9)
+        self.label_15.setFont(font)
+        self.label_15.setObjectName("label_15")
+        self.label_16 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_16.setGeometry(QtCore.QRect(300, 190, 71, 21))
+        self.label_16.setObjectName("label_16")
+        self.lineEdit_para_T_r = QtWidgets.QLineEdit(self.groupBox_Oil_pool_paras)
+        self.lineEdit_para_T_r.setGeometry(QtCore.QRect(220, 230, 71, 21))
+        self.lineEdit_para_T_r.setObjectName("lineEdit_para_T_r")
+        self.label_17 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_17.setGeometry(QtCore.QRect(130, 230, 81, 21))
+        font = QtGui.QFont()
+        font.setFamily("SimSun-ExtB")
+        font.setPointSize(9)
+        self.label_17.setFont(font)
+        self.label_17.setObjectName("label_17")
+        self.label_18 = QtWidgets.QLabel(self.groupBox_Oil_pool_paras)
+        self.label_18.setGeometry(QtCore.QRect(310, 230, 71, 21))
+        self.label_18.setObjectName("label_18")
+        self.widget = QtWidgets.QWidget(Widget_Oil_pool_paras)
+        self.widget.setGeometry(QtCore.QRect(80, 340, 336, 41))
+        self.widget.setObjectName("widget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.widget)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.pushButton_oil_para_cancel = QtWidgets.QPushButton(self.widget)
+        self.pushButton_oil_para_cancel.setObjectName("pushButton_oil_para_cancel")
+        self.horizontalLayout.addWidget(self.pushButton_oil_para_cancel)
+        self.pushButton_oil_para_next = QtWidgets.QPushButton(self.widget)
+        self.pushButton_oil_para_next.setObjectName("pushButton_oil_para_next")
+        self.horizontalLayout.addWidget(self.pushButton_oil_para_next)
+        self.pushButton_oil_para_load = QtWidgets.QPushButton(self.widget)
+        self.pushButton_oil_para_load.setObjectName("pushButton_oil_para_load")
+        self.horizontalLayout.addWidget(self.pushButton_oil_para_load)
+        self.pushButton_oil_para_finish = QtWidgets.QPushButton(self.widget)
+        self.pushButton_oil_para_finish.setObjectName("pushButton_oil_para_finish")
+        self.horizontalLayout.addWidget(self.pushButton_oil_para_finish)
+
+        self.retranslateUi(Widget_Oil_pool_paras)
+        # self.test_all()
+        # self.set_value()
+        QtCore.QMetaObject.connectSlotsByName(Widget_Oil_pool_paras)
+
+    def retranslateUi(self, Widget_Oil_pool_paras):
+        _translate = QtCore.QCoreApplication.translate
+        Widget_Oil_pool_paras.setWindowTitle(_translate("Widget_Oil_pool_paras", "基础参数1"))
+        self.groupBox_Oil_pool_paras.setTitle(_translate("Widget_Oil_pool_paras", "油藏参数"))
+        self.label.setText(_translate("Widget_Oil_pool_paras", "油层有效厚度"))
+        self.label_2.setText(_translate("Widget_Oil_pool_paras", "m"))
+        self.label_11.setText(_translate("Widget_Oil_pool_paras", "m"))
+        self.label_12.setText(_translate("Widget_Oil_pool_paras", "井组间距"))
+        self.label_9.setText(_translate("Widget_Oil_pool_paras", "kg/m^3"))
+        self.label_10.setText(_translate("Widget_Oil_pool_paras", "室温下原油脱气密度"))
+        self.label_13.setText(_translate("Widget_Oil_pool_paras", "岩石的密度"))
+        self.label_14.setText(_translate("Widget_Oil_pool_paras", "kg/m^3"))
+        self.label_15.setText(_translate("Widget_Oil_pool_paras", "原始地层压力"))
+        self.label_16.setText(_translate("Widget_Oil_pool_paras", "MPa"))
+        self.label_17.setText(_translate("Widget_Oil_pool_paras", "原始油藏温度"))
+        self.label_18.setText(_translate("Widget_Oil_pool_paras", "C"))
+        self.pushButton_oil_para_cancel.setText(_translate("Widget_Oil_pool_paras", "取消"))
+        self.pushButton_oil_para_next.setText(_translate("Widget_Oil_pool_paras", "下一步"))
+        self.pushButton_oil_para_load.setText(_translate("Widget_Oil_pool_paras", "读入参数"))
+        self.pushButton_oil_para_finish.setText(_translate("Widget_Oil_pool_paras", "完成"))
+
+    def test_all(self):
+        self.lineEdit_para_P_r.setText('24')
+
+        pass
+
+    # def set_value(self):
+    #     # 设置弹窗的值
+    #     oil_layer_H = '24'
+    #     space_W = 40.5
+    #     para_Roi = 960
+    #     para_Rr = 2320
+    #     para_P_r = 2
+    #     para_T_r = 326.57
+    #
+    #     # log('id of （{}）'.format(self.lineEdit_para_oil_layer_H))
+    #     # self.lineEdit_para_oil_layer_H.setP
+    #     # self.test_all()
+    #     self.lineEdit_para_oil_layer_H.setText(oil_layer_H)
+    #     self.lineEdit_para_well_space_W.setText(oil_layer_H)
+    #     self.lineEdit_para_Roi.setText(para_Roi)
+    #     self.lineEdit_para_Rr.setText(para_Rr)
+    #     self.lineEdit_para_P_r.setText(para_P_r)
+    #     self.lineEdit_para_T_r.setText(para_T_r)

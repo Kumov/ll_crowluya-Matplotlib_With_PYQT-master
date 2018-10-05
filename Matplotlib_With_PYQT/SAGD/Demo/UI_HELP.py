@@ -1,0 +1,32 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Help(object):
+    def setupUi(self, Help):
+        Help.setObjectName("Help")
+        Help.resize(251, 99)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        Help.setWindowIcon(icon)
+        self.gridLayoutWidget = QtWidgets.QWidget(Help)
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(9, 9, 231, 81))
+        self.gridLayoutWidget.setObjectName("gridLayoutWidget")
+        self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
+        self.gridLayout.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout.setObjectName("gridLayout")
+        self.plainTextEdit = QtWidgets.QPlainTextEdit(self.gridLayoutWidget)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.plainTextEdit.setFont(font)
+        self.plainTextEdit.setFrameShape(QtWidgets.QFrame.WinPanel)
+        self.plainTextEdit.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.plainTextEdit.setLineWidth(1)
+        self.plainTextEdit.setSizeAdjustPolicy(QtWidgets.QAbstractScrollArea.AdjustIgnored)
+        self.plainTextEdit.setReadOnly(True)
+        self.plainTextEdit.setObjectName("plainTextEdit")
+        self.gridLayout.addWidget(self.plainTextEdit, 0, 0, 1, 1)
+
+        self.retranslateUi(Help)
+        QtCore.QMetaObject.connectSlotsByName(Help)
